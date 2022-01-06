@@ -23,7 +23,7 @@ class App extends Component {
     this.setState({ loading: true });
 
     // get all the comments
-    fetch("http://localhost:3000/")
+    fetch("https://vercel.com/juda/react-component/HqabBwm4FytkXXMebFSyfPNmogz2")
       .then(res => res.json())
       .then(res => {
         this.setState({

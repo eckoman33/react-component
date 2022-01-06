@@ -50,7 +50,7 @@ export default class CommentForm extends Component {
 
     // persist the comments on server
     let { comment } = this.state;
-    fetch("http://localhost:3000/", {
+    fetch("https://vercel.com/juda/react-component/HqabBwm4FytkXXMebFSyfPNmogz2", {
       method: "post",
       body: JSON.stringify(comment)
     })
